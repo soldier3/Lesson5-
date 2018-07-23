@@ -1,0 +1,102 @@
+footer {
+    overflow: hidden;
+     @include section-bg("../img/footer-bg.jpeg");
+    height: 400px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    margin: 70px auto 0;
+    div{
+        width: 285px;
+        justify-content: space-between;
+    }
+    p{
+        margin-top: 25px;
+        color: #fff;
+        font-size: 14px;
+    }
+    h4{
+        color: #fff;
+        font-weight: bold;
+        margin: 15px 0 40px;
+    }
+    .gps{
+        background: url("../img/gps.png") no-repeat 0 5px;
+        padding-left: 25px;
+        font-size: 14px;
+    }
+    .tel{
+        background: url("../img/tel.png") no-repeat;
+        padding-left: 25px;
+        font-size: 14px;
+        margin-top: 10px; 
+    }
+    .send-mail{
+        input[type="text"]{
+            height: 45px;
+            width: 200px;
+            color: #fff;
+            background-color: transparent;
+            padding-left: 11px;
+            border: 1px solid #fff; 
+             }
+
+        input[type="submit"]{
+            height: 45px;
+            width: 70px;
+            background: url("../img/send.png ") no-repeat 50% 50%,  rgba(255,255,255, 0.5);
+            margin-left: 11px;
+            border: 1px solid #fff; 
+        }
+
+    }
+}
+
+.social{
+     display: flex;
+     margin-top: 25px;
+     justify-content: space-between;
+     a{
+         display: block;
+        width: 35px;
+        height: 35px;
+        border: 1px solid #fff;
+        @include border-radius(50%);
+    }
+    li:nth-child(1) a{
+        background: url("../img/Sprite.png") no-repeat 13px 10px ;
+    }
+   li:nth-child(2) a{
+    background: url("../img/Sprite.png") no-repeat -30px 10px ; 
+    }
+    li:nth-child(3) a{
+        background: url("../img/Sprite.png") no-repeat -74px 10px ;
+    }
+   li:nth-child(4) a{
+    background: url("../img/Sprite.png") no-repeat -117px 10px ; 
+    }
+    li:nth-child(5) a{
+        background: url("../img/Sprite.png") no-repeat -158px 10px ;
+    }
+   li:nth-child(6) a{
+    background: url("../img/Sprite.png") no-repeat -203px 10px ; 
+    }
+}
+
+.copyright{
+    margin: 80px auto 0;
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    color: #fff;
+    a{
+        color: #fff;
+    }
+    li{
+        display: inline-block;
+        margin-right: 30px;
+    }
+}

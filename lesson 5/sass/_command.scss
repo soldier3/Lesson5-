@@ -1,0 +1,14 @@
+.command{
+    padding: 70px 0;
+    height: 100vh;
+    @include section-bg("../img/command-bg.jpeg" );
+    h3{
+        font-size: 100px;
+        color: #fff;
+        margin: 70px 0 40px;
+    }
+    p{
+        color: #fff;
+       text-align: center;
+    }
+}

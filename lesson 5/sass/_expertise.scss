@@ -1,0 +1,53 @@
+.expertise{
+    padding: 71px 0 68px;
+    h4{
+        margin-top: 15px;
+    }
+}
+
+hr{
+    width: 50px;
+    height: 2px;
+    background-color: #c6c4c9;
+    margin: 0 auto;
+    border: none;
+    margin-top: 15px;
+}
+.inems-expertise {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+     width: 940px;
+    margin: 50px auto 0;
+}
+
+.inem-expertise {
+    border-right: 1px solid #ebebeb;
+    width: 310px;
+    height: 250px;
+    &:nth-child(n+4){
+        border-top: 1px solid #ebebeb;
+    }
+
+    &:nth-child(3n){
+        border-right: none;
+    }
+
+    img{
+        display: block;
+        margin: 30px auto 30px;
+    }
+
+    h4{
+        color: #413d4b;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    p{
+        text-align: center;
+    }
+
+}
+

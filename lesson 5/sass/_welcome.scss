@@ -1,0 +1,42 @@
+.welcome{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .our-story{
+        display: flex;
+        height: 370px;
+    }
+}
+
+.our-story img{
+    display: block;
+    height: 229px;
+    width: 239px;
+    margin-top: 70px;
+}
+
+
+.story{
+    margin-top: 70px;
+    padding-left: 95px;
+    p{
+        margin: 20px 0 30px;
+    }
+}
+
+.video-story{
+     margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 430px);
+    @include section-bg("../img/video-img.png");
+    button{
+        background-color: transparent;
+        border: none;
+        text-transform: uppercase;
+        color: #fff;
+        cursor: pointer;
+    }
+}

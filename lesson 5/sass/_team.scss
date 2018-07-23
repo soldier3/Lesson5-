@@ -1,0 +1,60 @@
+.team{
+    @include section-bg("../img/team-bg.jpeg");
+    padding: 70px;
+    color: #fff;
+    
+    h3{
+        color: #fff;
+    }
+
+    & header p{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    hr{
+        background-color: #655c80;
+    }
+
+}
+
+.peopls{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    div{
+        margin: 0 10px;
+        border: 1px solid #fff;
+    }
+    img{
+        display: block;
+        width: 220px;
+        height: 230px;
+        background: #fff;
+    }
+    p{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 13px;
+        margin: 10px 0;
+        span{
+            font-weight: bold;
+            font-size: 14px;
+
+        }
+    }
+}
+
+.join-us{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    p{
+        margin-top: 70px;
+    }
+    button{
+        margin-top: 25px;
+    }
+}

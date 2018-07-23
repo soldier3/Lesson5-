@@ -1,0 +1,32 @@
+.our-works{
+    padding-bottom: 70px;
+    header{
+       width: 920px;
+       display: flex;
+       height: 160px;
+       justify-content : space-between;
+       align-items : center;
+       margin: 0 auto;
+       a {
+        color: #413d4b;
+        }    
+    }
+    button{
+        margin: 70px auto 0;
+        display: block; 
+    }
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-around;
+    a{
+        height: 200px;
+        width: 267px;
+        background-color: rgb(94, 94, 94);
+        &:nth-child(2n+1){
+            background-color: #e6e6e6;
+        }
+    }
+} 
